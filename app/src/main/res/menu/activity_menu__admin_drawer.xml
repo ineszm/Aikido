@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Gérer Salle">
+        <menu>
+            <item
+                android:id="@+id/nav_consalle"
+                android:icon="@drawable/ic_salle"
+                android:title="Consulter Salle" />
+            <item
+                android:id="@+id/nav_ajousalle"
+                android:icon="@drawable/ic_asalle"
+                android:title="Ajouter Salle" />
+
+        </menu>
+    </item>
+
+    <item android:title="Profil">
+        <menu>
+            <item
+                android:id="@+id/nav_profil_salle"
+                android:icon="@drawable/ic_prof"
+                android:title="Mon Profil" />
+        </menu>
+    </item>
+</menu>

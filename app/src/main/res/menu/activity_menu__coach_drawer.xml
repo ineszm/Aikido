@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Work">
+        <menu>
+            <item
+                android:id="@+id/nav_programme"
+                android:icon="@drawable/ic_spor"
+                android:title="Consulter Programme" />
+            <item
+                android:id="@+id/nav_client"
+                android:icon="@drawable/ic_s"
+                android:title="Nos clients" />
+            <item
+                android:id="@+id/nav_commu"
+                android:icon="@drawable/ic_coach"
+                android:title="Contacter_Client" />
+
+        </menu>
+    </item>
+
+    <item android:title="Profil">
+        <menu>
+            <item
+                android:id="@+id/nav_profil1"
+                android:icon="@drawable/ic_prof"
+                android:title="Mon Profil" />
+        </menu>
+    </item>
+
+</menu>

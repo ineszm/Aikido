@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajouter_salle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="280"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:src="@drawable/tele" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"/>
+        <EditText
+            android:id="@+id/nom_salle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:hint="Nom"
+            android:paddingLeft="12dp"
+            android:inputType="textPersonName"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <EditText
+            android:id="@+id/adresse_salle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:hint="Adresse"
+            android:paddingLeft="12dp"
+            android:inputType="textPostalAddress"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <EditText
+            android:id="@+id/email_salle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:hint="Email"
+            android:paddingLeft="12dp"
+            android:inputType="textEmailAddress"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <EditText
+            android:id="@+id/num_act"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:hint="Nombre D'activite"
+            android:paddingLeft="12dp"
+            android:inputType="number"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <EditText
+            android:id="@+id/tel_salle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:hint="Téléphone"
+            android:paddingLeft="12dp"
+            android:inputType="phone"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <EditText
+            android:id="@+id/num_coach"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:hint="nombre de Coach"
+            android:paddingLeft="12dp"
+            android:inputType="number"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"/>
+        <Button
+            android:id="@+id/ajouter_salle"
+            android:layout_width="273dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="25"
+            android:background="@drawable/round_btn"
+            android:fontFamily="sans-serif"
+            android:text="CONFIRMER"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

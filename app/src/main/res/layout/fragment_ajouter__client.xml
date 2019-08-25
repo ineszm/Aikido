@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajouter_Client"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:src="@drawable/tele" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+
+    <EditText
+        android:id="@+id/date_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:hint="Date_Ajout"
+        android:paddingLeft="12dp"
+        android:inputType="datetime"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+
+    <EditText
+        android:id="@+id/frais_client"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:hint="frais"
+        android:paddingLeft="12dp"
+        android:inputType="text"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+
+        <EditText
+            android:id="@+id/mode_paiement_client"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:hint="Mode Paiement"
+            android:paddingLeft="12dp"
+            android:inputType="text"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <Button
+            android:id="@+id/ajouter"
+            android:layout_width="273dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="15"
+            android:background="@drawable/round_btn"
+            android:fontFamily="sans-serif"
+            android:text="CONFIRMER"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>

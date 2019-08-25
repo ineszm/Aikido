@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="230dp"
+    android:weightSum="220">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="110"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:weightSum="190">
+        <TextView
+            android:id="@+id/nom_act"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:text="Nom Exercice"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"/>
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="10"/>
+
+        <TextView
+            android:id="@+id/nom_prof"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:fontFamily="casual"
+            android:text="Nom Coach"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="20"/>
+        <TextView
+            android:id="@+id/num_sall"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:text="Num Salle"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+        />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="110"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:weightSum="120">
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"/>
+
+        <TextView
+            android:id="@+id/prenom_coach"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:text="prenom_coach"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:paddingTop="20dp"/>
+
+        <TextView
+        android:id="@+id/temps_act"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:text="12:30"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajouter_Coach">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:background="@color/white">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:src="@drawable/tele" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+
+        <EditText
+            android:id="@+id/poids_coach"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:hint="Poids"
+            android:paddingLeft="12dp"
+            android:inputType="numberDecimal"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+
+        <EditText
+            android:id="@+id/taille_coach"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:hint="Adresse"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="12dp" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <EditText
+            android:id="@+id/dateajout_coach"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:hint="date_ajout"
+            android:paddingLeft="12dp"
+            android:inputType="datetime"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"/>
+        <Button
+            android:id="@+id/ajouter_coach"
+            android:layout_width="273dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="15"
+            android:background="@drawable/round_btn"
+            android:fontFamily="sans-serif"
+            android:text="CONFIRMER"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</FrameLayout>

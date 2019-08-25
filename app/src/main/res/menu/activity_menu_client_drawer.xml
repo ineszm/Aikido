@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Body Fit">
+        <menu>
+        <item
+            android:id="@+id/nav_exercice"
+            android:icon="@drawable/ic_sport"
+            android:title="Mes Exercices" />
+        <item
+            android:id="@+id/nav_ajouter"
+            android:icon="@drawable/ic_exer"
+            android:title="Ajouter Exercice" />
+        <item
+            android:id="@+id/nav_coach"
+            android:icon="@drawable/ic_coach"
+            android:title="Contacter_Coach" />
+            <item
+                android:id="@+id/nav_prog"
+                android:icon="@drawable/icon_fitness"
+                android:title="Consulter Programme" />
+
+        </menu>
+    </item>
+
+    <item android:title="Profil">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@drawable/ic_prof"
+                android:title="Mon Profil" />
+
+        </menu>
+    </item>
+
+    <item android:title="Aikido">
+        <menu>
+            <item
+                android:id="@+id/nav_aikido"
+                android:icon="@drawable/ic_apropos"
+                android:title="A Propos" />
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_map"
+                android:title="Maps" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Gérer Client">
+        <menu>
+        <item
+            android:id="@+id/nav_liste_client"
+            android:icon="@drawable/ic_clienth"
+            android:title="Nos Clients" />
+        <item
+            android:id="@+id/nav_add_client"
+            android:icon="@drawable/ic_add"
+            android:title="Ajouter Un Client" />
+        <item
+            android:id="@+id/nav_delete_client"
+            android:icon="@drawable/ic_delete"
+            android:title="Supprimer Un Client" />
+
+        </menu>
+    </item>
+
+    <item android:title="Gérer Coach">
+        <menu>
+            <item
+                android:id="@+id/nav_liste_coach"
+                android:icon="@drawable/ic_clienth"
+                android:title="Nos Coach" />
+            <item
+                android:id="@+id/nav_add_coach"
+                android:icon="@drawable/ic_add_co"
+                android:title="Ajouter Un Coach" />
+            <item
+                android:id="@+id/nav_delete_coach"
+                android:icon="@drawable/ic_delete_co"
+                android:title="Supprimer Un Coach" />
+
+        </menu>
+    </item>
+
+    <item android:title="Profil">
+        <menu>
+            <item
+                android:id="@+id/nav_profil_resp"
+                android:icon="@drawable/ic_prof"
+                android:title="Mon Profil" />
+
+        </menu>
+    </item>
+</menu>

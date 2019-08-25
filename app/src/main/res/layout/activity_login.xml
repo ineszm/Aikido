@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:weightSum="120"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:text="Aikido"
+        android:textSize="75dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:src="@drawable/tele" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:hint="Email"
+        android:paddingLeft="12dp"
+        android:inputType="textEmailAddress"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:hint="Password"
+        android:paddingLeft="12dp"
+        android:inputType="textPassword"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="273dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+   android:background="@drawable/round_btn"
+        android:fontFamily="sans-serif"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"/>
+    <TextView
+        android:id="@+id/sigin"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="Sign in?"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:fontFamily="casual" />
+
+</LinearLayout>
